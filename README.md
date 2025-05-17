@@ -30,11 +30,15 @@ controle_quimicos/
 ├ config/               Configurações do projeto (conexão PDO)
 │  └ database.php
 ├ controles_php/        Controladores (controllers) em PHP
-│  └ ProdutoController.php
+│  ├ ProdutoController.php
+|  └ PessoaController.php
 ├ classe_dados/         Modelos de acesso a dados (classes CRUD)
-│  └ ProdutoDado.php
+│  ├ ProdutoDado.php
+|  └ PessoaDado.php
 ├ templates_html/       Views (templates HTML + Bootstrap)
 │  ├ produto_list.php
-│  └ produto_form.php
+│  ├ produto_form.php
+|  ├ pessoa_list.php
+|  └ pessoa_form.php
 ├ scripts_css/          Arquivos estáticos CSS (Bootstrap ou estilos customizados)
 └ testar_conexao.php    Script de teste da conexão ao banco
